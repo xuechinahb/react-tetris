@@ -114,7 +114,7 @@ export default class Keyboard extends React.Component {
           size="s0"
           top={100}
           left={52}
-          label={`${i18n.drop[lan]} (SPACE)`}
+          label={`${i18n.drop[lan]}`}
           active={keyboard.get('drop')}
           ref={(c) => { this.dom_space = c; }}
         />
